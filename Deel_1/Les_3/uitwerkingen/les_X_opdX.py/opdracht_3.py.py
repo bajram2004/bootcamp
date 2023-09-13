@@ -8,6 +8,6 @@ druivenbtw = (druiven / 100 * BTW)
 druiventotaal = druiven + druivenbtw
 bananenbtw = (bananen / 100 * BTW)
 bananentotaal = bananen + bananenbtw
-print(appelstotaal)
-print(druiventotaal)
-print(bananentotaal) 
+print (appelstotaal)
+print (druiventotaal)
+print (bananentotaal)
