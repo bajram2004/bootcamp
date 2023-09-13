@@ -19,19 +19,7 @@ naam = input ()
 print ("hoe oud ben je")
 leeftijd = int (input())
 
-if leeftijd >=18:
+if leeftijd >18:
     print ("Beste "+naam+", je bent nog geen 18. Alleen autorijden zit er dus niet in :-(")
 else:
     print ("Beste "+naam+", je bent 18 of ouder en mag dus alleen autorijden (met rijbewijs althans).")
-
-#opdracht 4
-
-oppervlakte = int(input('Hoeveel m2 vloerbedekking heeft u nodig?'))
-prijs_m2 = int (40)
-
-if oppervlakte >= 150:
-    prijs_m2 = 35
-if oppervlakte >= 80:
-    prijs_m2 = 38
-
-totaal = prijs_m2 * oppervlakte
