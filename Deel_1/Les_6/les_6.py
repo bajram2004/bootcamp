@@ -1,4 +1,5 @@
 # opdracht 1
+x=10
 if x == 18:
     print('de waarde van x = 18')
 
