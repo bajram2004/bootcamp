@@ -7,10 +7,10 @@ for _ in range(20):
     print("Ik ben hard op weg developer te worden!")
 
 #opdracht 3
-total = 625
-divisor = 25
-count = 0
-while total >= divisor:
-    total -= divisor
-    count += 1
-print(count)
+totaal = 625
+deel = 25
+ant = 0
+while totaal >= deel:
+    totaal -= deel
+    ant += 1
+print(ant)
